@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
     Widget w;
     w.show();
 
-    Form1 form1;
-    form1.show();
+    //Form1 form1;
+    //form1.show();
     return a.exec();
 }
