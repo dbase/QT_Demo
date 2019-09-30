@@ -15,6 +15,15 @@ public:
     explicit Widget(QWidget *parent = nullptr);
     ~Widget();
 
+private slots:
+    void on_checkBoxUnder_clicked(bool checked);
+
+    void on_checkBoxItalic_clicked(bool checked);
+
+    void on_checkBoxBold_clicked(bool checked);
+
+    void setTextFontColor();
+
 private:
     Ui::Widget *ui;
 };

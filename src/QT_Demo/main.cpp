@@ -1,15 +1,13 @@
 #include "widget.h"
 #include <QApplication>
 
-#include "form1.h"
+
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    Widget w;
-    w.show();
+    QApplication a(argc, argv); //定义并创建应用程序
+    Widget w; //定义并创建窗口
+    w.show(); //显示窗口
 
-    //Form1 form1;
-    //form1.show();
-    return a.exec();
+    return a.exec(); //应用程序运行，开始应用程序的消息循环和事件处理。
 }
