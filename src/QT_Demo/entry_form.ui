@@ -103,7 +103,7 @@
     <item row="0" column="3">
      <widget class="QPushButton" name="btn4">
       <property name="text">
-       <string>4</string>
+       <string>DateTime</string>
       </property>
      </widget>
     </item>

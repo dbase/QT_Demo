@@ -25,6 +25,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        date_time_form.cpp \
         entry_form.cpp \
         form1.cpp \
         main.cpp \
@@ -33,6 +34,7 @@ SOURCES += \
         widget.cpp
 
 HEADERS += \
+        date_time_form.h \
         entry_form.h \
         form1.h \
         slider_scrollbar_form.h \
@@ -40,6 +42,7 @@ HEADERS += \
         widget.h
 
 FORMS += \
+        date_time_form.ui \
         entry_form.ui \
         form1.ui \
         slider_scrollbar_form.ui \

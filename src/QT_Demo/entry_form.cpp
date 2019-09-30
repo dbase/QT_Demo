@@ -4,6 +4,7 @@
 #include "widget.h"
 #include "spinbox_form.h"
 #include "slider_scrollbar_form.h"
+#include "date_time_form.h"
 
 entry_form::entry_form(QWidget *parent) :
     QWidget(parent),
@@ -35,5 +36,12 @@ void entry_form::on_btn3_clicked()
 {
     // 显示slider控件学习的对话框
     slider_scrollbar_form* form = new slider_scrollbar_form();
+    form->show();
+}
+
+void entry_form::on_btn4_clicked()
+{
+    // 显示DateTime控件学习的对话框
+    date_time_form* form = new date_time_form();
     form->show();
 }
