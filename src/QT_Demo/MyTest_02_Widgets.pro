@@ -31,6 +31,7 @@ SOURCES += \
         main.cpp \
         slider_scrollbar_form.cpp \
         spinbox_form.cpp \
+        timer_form.cpp \
         widget.cpp
 
 HEADERS += \
@@ -39,6 +40,7 @@ HEADERS += \
         form1.h \
         slider_scrollbar_form.h \
         spinbox_form.h \
+        timer_form.h \
         widget.h
 
 FORMS += \
@@ -47,6 +49,7 @@ FORMS += \
         form1.ui \
         slider_scrollbar_form.ui \
         spinbox_form.ui \
+        timer_form.ui \
         widget.ui
 
 # Default rules for deployment.

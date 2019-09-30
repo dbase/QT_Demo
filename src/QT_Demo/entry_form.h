@@ -24,6 +24,8 @@ private slots:
 
     void on_btn4_clicked();
 
+    void on_btn5_clicked();
+
 private:
     Ui::entry_form *ui;
 };
