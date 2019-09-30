@@ -25,6 +25,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        combobox_plaintextedit_form.cpp \
         date_time_form.cpp \
         entry_form.cpp \
         form1.cpp \
@@ -35,6 +36,7 @@ SOURCES += \
         widget.cpp
 
 HEADERS += \
+        combobox_plaintextedit_form.h \
         date_time_form.h \
         entry_form.h \
         form1.h \
@@ -44,6 +46,7 @@ HEADERS += \
         widget.h
 
 FORMS += \
+        combobox_plaintextedit_form.ui \
         date_time_form.ui \
         entry_form.ui \
         form1.ui \

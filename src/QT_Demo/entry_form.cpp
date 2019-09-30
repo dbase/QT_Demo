@@ -6,6 +6,7 @@
 #include "slider_scrollbar_form.h"
 #include "date_time_form.h"
 #include "timer_form.h"
+#include "combobox_plaintextedit_form.h"
 
 entry_form::entry_form(QWidget *parent) :
     QWidget(parent),
@@ -51,5 +52,12 @@ void entry_form::on_btn5_clicked()
 {
     // 显示定时器控件学习的对话框
     timer_form* form = new timer_form();
+    form->show();
+}
+
+void entry_form::on_btn6_clicked()
+{
+    // 显示PlainText Combobox控件学习的对话框
+    combobox_plaintextedit_form* form = new combobox_plaintextedit_form();
     form->show();
 }
