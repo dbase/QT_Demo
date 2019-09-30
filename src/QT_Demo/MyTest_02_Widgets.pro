@@ -25,15 +25,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        entry_form.cpp \
         form1.cpp \
         main.cpp \
         widget.cpp
 
 HEADERS += \
+        entry_form.h \
         form1.h \
         widget.h
 
 FORMS += \
+        entry_form.ui \
         form1.ui \
         widget.ui
 
