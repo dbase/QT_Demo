@@ -28,18 +28,21 @@ SOURCES += \
         entry_form.cpp \
         form1.cpp \
         main.cpp \
+        slider_scrollbar_form.cpp \
         spinbox_form.cpp \
         widget.cpp
 
 HEADERS += \
         entry_form.h \
         form1.h \
+        slider_scrollbar_form.h \
         spinbox_form.h \
         widget.h
 
 FORMS += \
         entry_form.ui \
         form1.ui \
+        slider_scrollbar_form.ui \
         spinbox_form.ui \
         widget.ui
 

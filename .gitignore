@@ -8,3 +8,6 @@ src/QT_Demo/.qmake.stash
 src/QT_Demo/ui_widget.h
 src/QT_Demo/ui_entry_form.h
 src/QT_Demo/ui_spinbox_form.h
+src/QT_Demo/object_script.MyTest_02_Widgets.Release
+src/QT_Demo/object_script.MyTest_02_Widgets.Debug
+src/QT_Demo/ui_slider_scrollbar_form.h

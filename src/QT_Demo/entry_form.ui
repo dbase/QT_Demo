@@ -33,7 +33,7 @@
     <item row="0" column="2">
      <widget class="QPushButton" name="btn3">
       <property name="text">
-       <string>3</string>
+       <string>Slider</string>
       </property>
      </widget>
     </item>

@@ -3,6 +3,7 @@
 
 #include "widget.h"
 #include "spinbox_form.h"
+#include "slider_scrollbar_form.h"
 
 entry_form::entry_form(QWidget *parent) :
     QWidget(parent),
@@ -27,5 +28,12 @@ void entry_form::on_btn2_clicked()
 {
     // 显示spinbox控件学习的对话框
     spinbox_form* form = new spinbox_form();
+    form->show();
+}
+
+void entry_form::on_btn3_clicked()
+{
+    // 显示slider控件学习的对话框
+    slider_scrollbar_form* form = new slider_scrollbar_form();
     form->show();
 }
