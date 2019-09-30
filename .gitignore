@@ -7,3 +7,4 @@ src/QT_Demo/Makefile
 src/QT_Demo/.qmake.stash
 src/QT_Demo/ui_widget.h
 src/QT_Demo/ui_entry_form.h
+src/QT_Demo/ui_spinbox_form.h

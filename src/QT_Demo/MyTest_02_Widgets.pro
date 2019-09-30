@@ -28,16 +28,19 @@ SOURCES += \
         entry_form.cpp \
         form1.cpp \
         main.cpp \
+        spinbox_form.cpp \
         widget.cpp
 
 HEADERS += \
         entry_form.h \
         form1.h \
+        spinbox_form.h \
         widget.h
 
 FORMS += \
         entry_form.ui \
         form1.ui \
+        spinbox_form.ui \
         widget.ui
 
 # Default rules for deployment.
