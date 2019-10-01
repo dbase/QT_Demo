@@ -29,6 +29,7 @@ SOURCES += \
         date_time_form.cpp \
         entry_form.cpp \
         form1.cpp \
+        listwidgets_form.cpp \
         main.cpp \
         slider_scrollbar_form.cpp \
         spinbox_form.cpp \
@@ -40,6 +41,7 @@ HEADERS += \
         date_time_form.h \
         entry_form.h \
         form1.h \
+        listwidgets_form.h \
         slider_scrollbar_form.h \
         spinbox_form.h \
         timer_form.h \
@@ -50,6 +52,7 @@ FORMS += \
         date_time_form.ui \
         entry_form.ui \
         form1.ui \
+        listwidgets_form.ui \
         slider_scrollbar_form.ui \
         spinbox_form.ui \
         timer_form.ui \
