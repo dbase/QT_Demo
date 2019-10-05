@@ -26,11 +26,14 @@ CONFIG += c++11
 
 SOURCES += \
         combobox_plaintextedit_form.cpp \
+        custom_dialog_form.cpp \
         date_time_form.cpp \
         entry_form.cpp \
         form1.cpp \
         listwidgets_form.cpp \
         main.cpp \
+        qwdialogheaders.cpp \
+        qwdialogsize.cpp \
         slider_scrollbar_form.cpp \
         spinbox_form.cpp \
         standard_dialog_form.cpp \
@@ -41,10 +44,13 @@ SOURCES += \
 
 HEADERS += \
         combobox_plaintextedit_form.h \
+        custom_dialog_form.h \
         date_time_form.h \
         entry_form.h \
         form1.h \
         listwidgets_form.h \
+        qwdialogheaders.h \
+        qwdialogsize.h \
         slider_scrollbar_form.h \
         spinbox_form.h \
         standard_dialog_form.h \
@@ -55,10 +61,13 @@ HEADERS += \
 
 FORMS += \
         combobox_plaintextedit_form.ui \
+        custom_dialog_form.ui \
         date_time_form.ui \
         entry_form.ui \
         form1.ui \
         listwidgets_form.ui \
+        qwdialogheaders.ui \
+        qwdialogsize.ui \
         slider_scrollbar_form.ui \
         spinbox_form.ui \
         standard_dialog_form.ui \

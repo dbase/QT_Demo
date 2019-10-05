@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QWDialogSize</class>
+ <widget class="QDialog" name="QWDialogSize">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>429</width>
+    <height>215</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>371</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>设置表格的行数和列数：</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>列数</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBoxRow">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>30</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>5</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>行数</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBoxColumn">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>100</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>10</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnOk">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>30</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>确定</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCancel">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>100</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>取消</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btnOk</sender>
+   <signal>clicked()</signal>
+   <receiver>QWDialogSize</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>350</x>
+     <y>75</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>214</x>
+     <y>107</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnCancel</sender>
+   <signal>clicked()</signal>
+   <receiver>QWDialogSize</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>350</x>
+     <y>145</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>214</x>
+     <y>107</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
