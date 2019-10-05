@@ -10,6 +10,7 @@
 #include "listwidgets_form.h"
 #include "toolbutton_action_form.h"
 #include "string_list_model_form.h"
+#include "standard_dialog_form.h"
 
 entry_form::entry_form(QWidget *parent) :
     QWidget(parent),
@@ -83,5 +84,12 @@ void entry_form::on_btn9_clicked()
 {
     // 显示QStringListModel 和 Model view 控件学习的对话框
     string_list_model_form* form = new string_list_model_form();
+    form->show();
+}
+
+void entry_form::on_btn10_clicked()
+{
+    // 显示 5种标准对话框
+    standard_dialog_form* form = new standard_dialog_form();
     form->show();
 }
