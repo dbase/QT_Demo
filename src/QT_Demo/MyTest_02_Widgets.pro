@@ -33,6 +33,7 @@ SOURCES += \
         main.cpp \
         slider_scrollbar_form.cpp \
         spinbox_form.cpp \
+        string_list_model_form.cpp \
         timer_form.cpp \
         toolbutton_action_form.cpp \
         widget.cpp
@@ -45,6 +46,7 @@ HEADERS += \
         listwidgets_form.h \
         slider_scrollbar_form.h \
         spinbox_form.h \
+        string_list_model_form.h \
         timer_form.h \
         toolbutton_action_form.h \
         widget.h
@@ -57,6 +59,7 @@ FORMS += \
         listwidgets_form.ui \
         slider_scrollbar_form.ui \
         spinbox_form.ui \
+        string_list_model_form.ui \
         timer_form.ui \
         toolbutton_action_form.ui \
         widget.ui

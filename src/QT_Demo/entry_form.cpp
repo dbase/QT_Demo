@@ -9,6 +9,7 @@
 #include "combobox_plaintextedit_form.h"
 #include "listwidgets_form.h"
 #include "toolbutton_action_form.h"
+#include "string_list_model_form.h"
 
 entry_form::entry_form(QWidget *parent) :
     QWidget(parent),
@@ -75,5 +76,12 @@ void entry_form::on_btn8_clicked()
 {
     // 显示QToolButton 和 Action 控件学习的对话框
     toolbutton_action_form* form = new toolbutton_action_form();
+    form->show();
+}
+
+void entry_form::on_btn9_clicked()
+{
+    // 显示QStringListModel 和 Model view 控件学习的对话框
+    string_list_model_form* form = new string_list_model_form();
     form->show();
 }
