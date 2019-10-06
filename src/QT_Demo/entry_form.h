@@ -1,4 +1,4 @@
-#ifndef ENTRY_FORM_H
+﻿#ifndef ENTRY_FORM_H
 #define ENTRY_FORM_H
 
 #include <QWidget>
@@ -37,6 +37,8 @@ private slots:
     void on_btn10_clicked();
 
     void on_btn11_clicked();
+
+    void on_btn12_clicked();
 
 private:
     Ui::entry_form *ui;

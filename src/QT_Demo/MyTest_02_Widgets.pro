@@ -32,6 +32,7 @@ SOURCES += \
         form1.cpp \
         listwidgets_form.cpp \
         main.cpp \
+        multiwindow.cpp \
         qwdialogheaders.cpp \
         qwdialogsize.cpp \
         slider_scrollbar_form.cpp \
@@ -49,6 +50,7 @@ HEADERS += \
         entry_form.h \
         form1.h \
         listwidgets_form.h \
+        multiwindow.h \
         qwdialogheaders.h \
         qwdialogsize.h \
         slider_scrollbar_form.h \
@@ -66,6 +68,7 @@ FORMS += \
         entry_form.ui \
         form1.ui \
         listwidgets_form.ui \
+        multiwindow.ui \
         qwdialogheaders.ui \
         qwdialogsize.ui \
         slider_scrollbar_form.ui \

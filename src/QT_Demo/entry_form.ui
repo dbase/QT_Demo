@@ -47,7 +47,7 @@
     <item row="2" column="3">
      <widget class="QPushButton" name="btn12">
       <property name="text">
-       <string>12</string>
+       <string>MultiWindow</string>
       </property>
      </widget>
     </item>

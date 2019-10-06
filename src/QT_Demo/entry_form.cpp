@@ -1,4 +1,4 @@
-#include "entry_form.h"
+﻿#include "entry_form.h"
 #include "ui_entry_form.h"
 
 #include "widget.h"
@@ -12,6 +12,7 @@
 #include "string_list_model_form.h"
 #include "standard_dialog_form.h"
 #include "custom_dialog_form.h"
+#include "multiwindow.h"
 
 entry_form::entry_form(QWidget *parent) :
     QWidget(parent),
@@ -99,5 +100,12 @@ void entry_form::on_btn11_clicked()
 {
     // 显示自定义的对话框
     custom_dialog_form* form = new custom_dialog_form();
+    form->show();
+}
+
+void entry_form::on_btn12_clicked()
+{
+    // 显示多窗口
+    MultiWindow* form = new MultiWindow();
     form->show();
 }
