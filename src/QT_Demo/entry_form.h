@@ -40,6 +40,8 @@ private slots:
 
     void on_btn12_clicked();
 
+    void on_btn13_clicked();
+
 private:
     Ui::entry_form *ui;
 };

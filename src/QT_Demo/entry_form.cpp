@@ -13,6 +13,7 @@
 #include "standard_dialog_form.h"
 #include "custom_dialog_form.h"
 #include "multiwindow.h"
+#include "chart_form.h"
 
 entry_form::entry_form(QWidget *parent) :
     QWidget(parent),
@@ -107,5 +108,12 @@ void entry_form::on_btn12_clicked()
 {
     // 显示多窗口
     MultiWindow* form = new MultiWindow();
+    form->show();
+}
+
+void entry_form::on_btn13_clicked()
+{
+    // 显示图表 Charts
+    chart_form* form = new chart_form();
     form->show();
 }

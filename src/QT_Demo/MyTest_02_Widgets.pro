@@ -5,6 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
+QT       += charts
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -25,6 +26,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        chart_form.cpp \
         combobox_plaintextedit_form.cpp \
         custom_dialog_form.cpp \
         date_time_form.cpp \
@@ -44,6 +46,7 @@ SOURCES += \
         widget.cpp
 
 HEADERS += \
+        chart_form.h \
         combobox_plaintextedit_form.h \
         custom_dialog_form.h \
         date_time_form.h \
@@ -62,6 +65,7 @@ HEADERS += \
         widget.h
 
 FORMS += \
+        chart_form.ui \
         combobox_plaintextedit_form.ui \
         custom_dialog_form.ui \
         date_time_form.ui \
