@@ -14,6 +14,7 @@
 #include "custom_dialog_form.h"
 #include "multiwindow.h"
 #include "chart_form.h"
+#include "stacked_widget_form.h"
 
 entry_form::entry_form(QWidget *parent) :
     QWidget(parent),
@@ -115,5 +116,11 @@ void entry_form::on_btn13_clicked()
 {
     // 显示图表 Charts
     chart_form* form = new chart_form();
+    form->show();
+}
+
+void entry_form::on_btn14_clicked()
+{
+    stacked_widget_form* form = new stacked_widget_form();
     form->show();
 }

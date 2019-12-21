@@ -39,6 +39,10 @@ SOURCES += \
         qwdialogsize.cpp \
         slider_scrollbar_form.cpp \
         spinbox_form.cpp \
+        stacked_form1.cpp \
+        stacked_form2.cpp \
+        stacked_form3.cpp \
+        stacked_widget_form.cpp \
         standard_dialog_form.cpp \
         string_list_model_form.cpp \
         timer_form.cpp \
@@ -58,6 +62,10 @@ HEADERS += \
         qwdialogsize.h \
         slider_scrollbar_form.h \
         spinbox_form.h \
+        stacked_form1.h \
+        stacked_form2.h \
+        stacked_form3.h \
+        stacked_widget_form.h \
         standard_dialog_form.h \
         string_list_model_form.h \
         timer_form.h \
@@ -77,6 +85,10 @@ FORMS += \
         qwdialogsize.ui \
         slider_scrollbar_form.ui \
         spinbox_form.ui \
+        stacked_form1.ui \
+        stacked_form2.ui \
+        stacked_form3.ui \
+        stacked_widget_form.ui \
         standard_dialog_form.ui \
         string_list_model_form.ui \
         timer_form.ui \
